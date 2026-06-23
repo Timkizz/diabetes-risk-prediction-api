@@ -11,7 +11,7 @@ This project takes a patient's health metrics and returns a diabetes risk predic
 ## Features
 
 - **FastAPI backend** with Pydantic request validation
-- **Trained Gradient Boosting model** tuned via RandomizedSearchCV (~0.93 ROC-AUC)
+- **Trained Random Forest model** tuned via RandomizedSearchCV (~0.93 ROC-AUC)
 - **Health check endpoint** to confirm model and scaler load correctly
 - **Streamlit frontend** for real-time predictions without needing Swagger UI or Postman
 - **Logging middleware** for request tracking
